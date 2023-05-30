@@ -1,0 +1,25 @@
+canvas{
+    margin-top: 50px;
+    animation-name:cc;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cc {
+    from{
+        box-shadow: 25px 50px 35px rebeccapurple;
+    }
+    to{
+        box-shadow: 25px 50px 35px olive;
+    }
+}
+
+.btn-success:hover{
+    background-color: aquamarine;
+}
+
+h1{
+    width:500px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ 
